@@ -7,6 +7,7 @@ import { HamburgerMenu } from "./design/Header";
 
 const Header = () => {
   const pathname = useLocation();
+  // const [openNavigation, setOpenNavigation] = useState(true);
   return (
     <div
       className="fixed top-0 left-0 w-full z-50 bg-n-8/90
